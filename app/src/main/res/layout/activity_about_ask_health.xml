@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_ask_health"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.askhealth.AboutAskHealth">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.42"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/picicon"
+                android:id="@+id/imageView2"
+                android:layout_weight="0.86" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                
+                <TextView
+                    android:text="      ในปัจจุบันนั้นมีผู้คนจานวนไม่น้อยที่หันมาสนใจเรื่องการดูแลสุขภาพไม่ว่าจะเป็นการเลือกรับประทานอาหาร หรือการทากิจกรรม เล่นกีฬาเพื่อส่งเสริมสุขภาพของตนนั้นให้ดีขึ้นมีสุขภาพที่แข็งแรง และปัญหาที่พบได้บ่อยครั้งในการไปออกกาลังกาย คือ ไม่มีเพื่อนไปออกกาลังกาย หรือทากิจกรรมนั้น ๆ ด้วยและด้วยเหตุนี้จึงทาให้เกิดแนวคิดในการพัฒนาเป็นแอพพลิเคชั่นเพื่อตอบโจทย์ในการหาเพื่อนเพื่อออกกาลังกาย หรือทากิจกรรมส่งเสริมสุขภาพ แอพพลิเคชั่นหาเพื่อนทากิจกรรม เล่นกีฬา เพื่อสุขภาพนี้ผู้ใช้งานจะสามารถหาเพื่อนได้จากการใช้งานแอพพลิเคชั่นโดยรูปแบบของแอพพลิเคชั่นนั้นจะมีการแบ่งหมวดหมู่หรือชนิดกีฬาไว้อย่างชัดเจนทาให้มีความสะดวกในการหา ติดต่อ กับผู้ใช้อื่น ๆ ที่มีจุดประสงค์เหมือนกันได้ง่ายขึ้น และผู้ใช้สามารถเข้าถึงได้ตลอดเวลาผ่านเครือข่ายอินเตอร์เน็ต ผู้พัฒนาจึงมีแนวคิดที่จะคิดค้นและพัฒนาโปรแกรมบนระบบปฏิบัติการ มือถือ Android โดยมีชื่อโครงงานว่า “ Application Ask Health แอพพลิเคชั่นหาเพื่อนทากิจกรรม เล่นกีฬา เพื่อสุขภาพ ” ด้วยหน้าตาของแอพพลิเคชั่นทาให้ผู้ใช้สามารถใช้งานได้ง่ายโดยจะมีการแยกประเภทของชนิดกีฬาต่าง ๆ ไว้อย่างชัดเจนจึงทาให้สะดวกในการเรียกใช้งาน ผู้พัฒนาจึงได้มีความคิดริเริ่มที่จะพัฒนาแอพพลิเคชั่นบน Smartphone โดยเน้นไปที่ระบบปฏิบัติการ Android เพราะเปิดกว้างสาหรับคนที่ต้องการพัฒนาแอพพลิเคชั่น มีผู้ใช้เป็นจานวนมาก และมีแนวโน้มเพิ่มขึ้นเรื่อยๆ" android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView" />
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

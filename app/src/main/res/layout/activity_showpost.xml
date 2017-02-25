@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_showpost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/post_title"
+        android:layout_alignBottom="@+id/post_thumbnail"
+        android:layout_toEndOf="@+id/post_thumbnail"
+        android:layout_marginStart="14dp" />
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:id="@+id/post_date"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="152dp"
+        android:layout_below="@+id/post_title"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/likebt"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="46dp"
+        android:layout_alignBottom="@+id/post_date"
+        android:layout_alignEnd="@+id/post_title" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/iconchat"
+        android:layout_marginEnd="14dp"
+        android:id="@+id/imageView2"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toStartOf="@+id/post_date" />
+
+    <TextView
+        android:text="countlike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:id="@+id/countlike"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginStart="23dp" />
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginRight="8dp"
+        android:id="@+id/post_thumbnail"
+        android:src="@drawable/picpro"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author Name"
+        android:id="@+id/post_author"
+        android:layout_alignTop="@+id/post_thumbnail"
+        android:layout_alignStart="@+id/post_title"
+        android:layout_marginTop="11dp" />
+
+
+</RelativeLayout>

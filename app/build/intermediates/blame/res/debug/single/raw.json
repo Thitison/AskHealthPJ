@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Ask Health Project\\map\\AskHealth\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "D:\\Ask Health Project\\map\\AskHealth\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
+    },
+    {
+        "merged": "D:\\Ask Health Project\\mapp\\AskHealthPJ\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "D:\\Ask Health Project\\mapp\\AskHealthPJ\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
+    }
+]

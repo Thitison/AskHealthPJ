@@ -1,0 +1,7 @@
+#Fri Feb 24 20:46:32 ICT 2017
+base.0=D\:\\Ask Health Project\\map\\AskHealth\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_4b74db5217236c79d8d21a78dcf0e3a68096d5c1
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\Ask Health Project\\map\\AskHealth\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_95dc2e6b90bbf9d186a77103379bdfd1b3ae5306\\classes.dex
+base.1=D\:\\Ask Health Project\\map\\AskHealth\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_95dc2e6b90bbf9d186a77103379bdfd1b3ae5306
+file.0=D\:\\Ask Health Project\\map\\AskHealth\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_4b74db5217236c79d8d21a78dcf0e3a68096d5c1\\classes.dex
